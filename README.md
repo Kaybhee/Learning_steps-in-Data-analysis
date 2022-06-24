@@ -16,7 +16,7 @@ The data used to derive these insights were scraped from the web on COVID19 GitH
 The data was loaded from the covid19 GitHub website and copied the source code into Microsoft Excel in the following order; confirmed cases,Death and Recovered cases.
 The data was then opened in power Query in order to transform and clean the data.
 
-#The followimg procedure ensued;
+<sup>The followimg procedure ensued;<sup>
 --------
 I Changed the query name, edited the source to remove the column load limit in order to enable update. Made first row as column header and selected state/province, country/region, long, lat then unpivot other columns.
 Made sure to Delete Attribute, changed data types and renamed columns from value to confirmed. 
